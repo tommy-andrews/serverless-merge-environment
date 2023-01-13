@@ -8,7 +8,7 @@
     "url": "https://github.com/tommy-andrews/serverless-merge-environment.git"
   },
   "engines": {
-    "node": ">= 16.16.0"
+    "node": ">= 16"
   },
   "author": "Tommy Andrews",
   "license": "MIT",
