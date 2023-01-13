@@ -27,6 +27,7 @@ class ServerlessMergeEnvironment {
     }
 
     mergeConfig () {
+        console.log('Merging environment variables');
         if (!this.serverless.service.provider.environment) {
             this.serverless.service.provider.environment = {};
         }
