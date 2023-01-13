@@ -27,6 +27,9 @@ class ServerlessMergeEnvironment {
     }
 
     mergeConfig () {
+        if (!this.serverless.service.provider.environment) {
+            this.serverless.service.provider.environment = {};
+        }
         if (isArray(this.serverless.service.custom.mergeEnvironment)) {
             this.serverless.service.custom.mergeEnvironment.forEach((subValue) => {
                 this.assignValue(this.serverless.service.provider.environment, subValue);

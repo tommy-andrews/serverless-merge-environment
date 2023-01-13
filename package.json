@@ -1,6 +1,6 @@
 {
   "name": "serverless-merge-environment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds the ability to merge multiple objects/files into the provider.environment variable.",
   "main": "index.js",
   "repository": {
