@@ -1,0 +1,18 @@
+{
+  "name": "@tommy-andrews/serverless-merge-environment",
+  "version": "1.0.0",
+  "description": "Adds the ability to merge multiple objects/files into the provider.environment variable.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommy-andrews/serverless-merge-environment.git"
+  },
+  "engines": {
+    "node": ">= 16.16.0"
+  },
+  "author": "Tommy Andrews",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

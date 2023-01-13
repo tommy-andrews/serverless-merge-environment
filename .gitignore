@@ -1,0 +1,15 @@
+# IDE
+.editorconfig
+.idea/
+.vscode/
+**/*.iml
+# NPM
+.npm
+.history
+npm-debug.log
+node_modules
+
+# Outputs
+build
+
+package-lock.json
